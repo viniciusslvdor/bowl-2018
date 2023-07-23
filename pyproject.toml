@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "microscope-segmentation"
+version = "0.1.0"
+description = ""
+authors = ["viniciusslvdor <viniciussalvador05@gmail.com>"]
+readme = "README.md"
+packages = [{include = "microscope_segmentation"}]
+
+[tool.poetry.dependencies]
+python = "3.8.10,<3.10"
+opencv-python = "4.8.0.74"
+ipykernel = "^6.24.0"
+tensorflow-io-gcs-filesystem = "<0.32.0"
+tensorflow = "2.7.0"
+matplotlib = "3.7.2"
+kaggle = "1.5.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
